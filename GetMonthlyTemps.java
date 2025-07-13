@@ -14,9 +14,8 @@ public class GetMonthlyTemps {
             System.out.println("\n--------------------------------------------");
 
             System.out.println("\nType a month name (e.g. March) to see its avg temp,");
-            System.out.print("or type 'year' for the full summary, or 'exit' to quit: ");
+            System.out.println("or type 'year' for the full summary, or 'exit' to quit: ");
             String input = scanner.nextLine();
-            System.out.print("");
 
             if (input.equalsIgnoreCase("exit")) {
                 System.out.println("\nGoodbye!");
